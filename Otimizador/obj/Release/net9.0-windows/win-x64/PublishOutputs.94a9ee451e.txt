@@ -1,0 +1,2 @@
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\win-x64\publish\OtimizadorDePastas.pdb
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\win-x64\publish\OtimizadorDePastas.exe

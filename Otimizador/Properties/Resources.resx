@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <data name="AppIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_large.ico;System.Drawing.Icon, System.Drawing</value>
+  </data>
+  <data name="AppLogo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_large.png;System.Drawing.Bitmap, System.Drawing</value>
+  </data>
+</root> 

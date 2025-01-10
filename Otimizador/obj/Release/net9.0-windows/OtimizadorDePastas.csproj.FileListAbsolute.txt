@@ -1,0 +1,14 @@
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\OtimizadorDePastas.exe
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\OtimizadorDePastas.deps.json
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\OtimizadorDePastas.runtimeconfig.json
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\OtimizadorDePastas.dll
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\bin\Release\net9.0-windows\OtimizadorDePastas.pdb
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.AssemblyInfoInputs.cache
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.AssemblyInfo.cs
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.csproj.CoreCompileInputs.cache
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.dll
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\refint\OtimizadorDePastas.dll
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.pdb
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\OtimizadorDePastas.genruntimeconfig.cache
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\obj\Release\net9.0-windows\ref\OtimizadorDePastas.dll

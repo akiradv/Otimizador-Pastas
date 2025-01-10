@@ -1,0 +1,5 @@
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\publicacao\OtimizadorDePastas.exe
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\publicacao\OtimizadorDePastas.dll
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\publicacao\OtimizadorDePastas.deps.json
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\publicacao\OtimizadorDePastas.runtimeconfig.json
+D:\Users\gatoc\Desktop\com.akiradev\Projetos\OtimizadorDePastas\publicacao\OtimizadorDePastas.pdb

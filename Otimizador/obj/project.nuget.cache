@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "TKVBHVxSlWY=",
+  "success": true,
+  "projectFilePath": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
+  "expectedPackageFiles": [
+    "D:\\Users\\gatoc\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.0\\microsoft.net.illink.tasks.9.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
