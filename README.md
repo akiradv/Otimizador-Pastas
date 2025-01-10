@@ -1,7 +1,7 @@
 # Otimizador de Pastas
 
 <p align="center">
-  <img src="resources/AppLogo.png" alt="Logo do Otimizador de Pastas" width="200"/>
+  <img src="resources/icon_large.png" alt="Logo do Otimizador de Pastas" width="200"/>
 </p>
 
 ## Sobre
