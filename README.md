@@ -50,7 +50,7 @@ Este projeto está licenciado sob a [GPL-3.0](LICENSE).
 
 ## 📞 Suporte
 - GitHub Issues: Para reportar bugs e sugestões
-- Discord: [AkiraDev]](https://discord.gg/ujrHbTXX62)
+- Discord: [AkiraDev](https://discord.gg/ujrHbTXX62)
 
 ## 🙏 Agradecimentos
 Agradecemos a todos os usuários e colaboradores que ajudam a tornar este projeto melhor a cada dia.
