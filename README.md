@@ -1,4 +1,3 @@
-d:\Users\gatoc\Documents\GitHub\Otimizador-Pastas\README.md
 # Otimizador de Pastas
 
 <p align="center">
