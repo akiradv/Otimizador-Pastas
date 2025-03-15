@@ -17,6 +17,7 @@ namespace OtimizadorDePastas
         private List<HistoricoLimpeza> historico = new();
         private ConfigForm? configForm;
         private System.Windows.Forms.Timer timerLimpeza = new();
+        private Panel notificationPanel = new Panel();
 
         [DllImport("user32.dll", SetLastError = true)]
         private static extern bool DestroyIcon(IntPtr hIcon);
@@ -24,6 +25,7 @@ namespace OtimizadorDePastas
         public Form1()
         {
             InitializeComponent();
+            InitializeNotificationPanel();
             this.Text = "Otimizador de Pastas";
             this.StartPosition = FormStartPosition.CenterScreen;
 
@@ -300,14 +302,8 @@ namespace OtimizadorDePastas
 
         private void InfoItem_Click(object? sender, EventArgs e)
         {
-            var assembly = Assembly.GetExecutingAssembly();
-            var version = assembly.GetName().Version;
-
-            string formattedVersion = $"{version.Major}.{version.Minor}.{version.Build}";
-
-            string dotNetVersion = Environment.Version.ToString();
-
-            MessageBox.Show($"Versão da Aplicação: {formattedVersion}\nVersão do .NET: {dotNetVersion}", "Informações", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            AboutForm aboutForm = new AboutForm();
+            aboutForm.ShowDialog();
         }
 
         private (int arquivos, long espaco) LimparPasta(string pasta)
@@ -628,6 +624,54 @@ namespace OtimizadorDePastas
             {
                 Console.WriteLine($"Erro no timer de limpeza: {ex.Message}");
             }
+        }
+
+        private void InitializeNotificationPanel()
+        {
+            notificationPanel.Size = new Size(300, 100);
+            notificationPanel.BackColor = Color.FromArgb(240, 240, 240);
+            notificationPanel.BorderStyle = BorderStyle.FixedSingle;
+            notificationPanel.Location = new Point(50, 50); // Ajuste a posição conforme necessário
+            notificationPanel.Visible = false;
+
+            Label lblMessage = new Label
+            {
+                Dock = DockStyle.Fill,
+                TextAlign = ContentAlignment.MiddleCenter,
+                Font = new Font("Segoe UI", 10, FontStyle.Regular),
+                ForeColor = Color.Black
+            };
+
+            LinkLabel linkLabel = new LinkLabel
+            {
+                Dock = DockStyle.Bottom,
+                LinkColor = Color.Blue,
+                AutoSize = true
+            };
+            linkLabel.LinkClicked += (s, e) => System.Diagnostics.Process.Start("https://github.com/seu_usuario/seu_repositorio");
+
+            Button btnClose = new Button
+            {
+                Text = "Fechar",
+                Dock = DockStyle.Bottom
+            };
+            btnClose.Click += (s, e) => notificationPanel.Visible = false; // Fecha a notificação
+
+            notificationPanel.Controls.Add(lblMessage);
+            notificationPanel.Controls.Add(linkLabel);
+            notificationPanel.Controls.Add(btnClose);
+            this.Controls.Add(notificationPanel);
+        }
+
+        private void ShowNotification(string message, string link)
+        {
+            Label lblMessage = (Label)notificationPanel.Controls[0];
+            lblMessage.Text = message;
+
+            LinkLabel linkLabel = (LinkLabel)notificationPanel.Controls[1];
+            linkLabel.Text = link;
+
+            notificationPanel.Visible = true;
         }
     }
 }

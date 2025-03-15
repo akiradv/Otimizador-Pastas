@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     "net9.0-windows7.0": {
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "Microsoft.NET.ILLink.Tasks/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -10,7 +10,7 @@
       }
     },
     "net9.0-windows7.0/win-x64": {
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {
+      "Microsoft.NET.ILLink.Tasks/9.0.1": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -19,10 +19,10 @@
     }
   },
   "libraries": {
-    "Microsoft.NET.ILLink.Tasks/9.0.0": {
-      "sha512": "zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
+    "Microsoft.NET.ILLink.Tasks/9.0.1": {
+      "sha512": "BKFAkdhUUJivAoKuSWcT23WH9E+AWQMJootzt9X+lnesOD2a2yNIe1ZQFtxB8H3ayskLBD5gYyIbj5GIfw7rZg==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/9.0.0",
+      "path": "microsoft.net.illink.tasks/9.0.1",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -36,7 +36,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.9.0.0.nupkg.sha512",
+        "microsoft.net.illink.tasks.9.0.1.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -73,23 +73,23 @@
   },
   "projectFileDependencyGroups": {
     "net9.0-windows7.0": [
-      "Microsoft.NET.ILLink.Tasks >= 9.0.0"
+      "Microsoft.NET.ILLink.Tasks >= 9.0.1"
     ]
   },
   "packageFolders": {
-    "D:\\Users\\gatoc\\.nuget\\packages\\": {}
+    "C:\\Users\\AkiraDev\\.nuget\\packages\\": {}
   },
   "project": {
-    "version": "1.0.4",
+    "version": "1.0.5",
     "restore": {
-      "projectUniqueName": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
+      "projectUniqueName": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
       "projectName": "OtimizadorDePastas",
-      "projectPath": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
-      "packagesPath": "D:\\Users\\gatoc\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\obj\\",
+      "projectPath": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
+      "packagesPath": "C:\\Users\\AkiraDev\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "D:\\Users\\gatoc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\AkiraDev\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0-windows"
@@ -122,7 +122,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[9.0.0, )",
+            "version": "[9.0.1, )",
             "autoReferenced": true
           }
         },
@@ -145,7 +145,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {

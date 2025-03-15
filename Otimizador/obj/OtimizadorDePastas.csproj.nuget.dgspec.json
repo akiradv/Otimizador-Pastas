@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj": {}
+    "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj": {}
   },
   "projects": {
-    "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj": {
-      "version": "1.0.4",
+    "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj": {
+      "version": "1.0.5",
       "restore": {
-        "projectUniqueName": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
+        "projectUniqueName": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
         "projectName": "OtimizadorDePastas",
-        "projectPath": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
-        "packagesPath": "D:\\Users\\gatoc\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\gatoc\\Desktop\\com.akiradev\\OtimizadorDePastas\\obj\\",
+        "projectPath": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\OtimizadorDePastas.csproj",
+        "packagesPath": "C:\\Users\\AkiraDev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AkiraDev\\Desktop\\com.akiradev\\Projetos\\OtimizadorDePastas\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\gatoc\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\AkiraDev\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0-windows"
@@ -47,7 +47,7 @@
             "Microsoft.NET.ILLink.Tasks": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[9.0.0, )",
+              "version": "[9.0.1, )",
               "autoReferenced": true
             }
           },
@@ -70,7 +70,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "D:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -7,29 +7,29 @@
   "targets": {
     ".NETCoreApp,Version=v9.0": {},
     ".NETCoreApp,Version=v9.0/win-x64": {
-      "OtimizadorDePastas/1.0.4": {
+      "OtimizadorDePastas/1.0.5": {
         "dependencies": {
-          "Microsoft.NET.ILLink.Tasks": "9.0.0"
+          "Microsoft.NET.ILLink.Tasks": "9.0.1"
         },
         "runtime": {
           "OtimizadorDePastas.dll": {}
         }
       },
-      "Microsoft.NET.ILLink.Tasks/9.0.0": {}
+      "Microsoft.NET.ILLink.Tasks/9.0.1": {}
     }
   },
   "libraries": {
-    "OtimizadorDePastas/1.0.4": {
+    "OtimizadorDePastas/1.0.5": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
     },
-    "Microsoft.NET.ILLink.Tasks/9.0.0": {
+    "Microsoft.NET.ILLink.Tasks/9.0.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-zAwp213evC3UkimtVXRb+Dlgc/40QG145nmZDtp2LO9zJJMfrp+i/87BnXN7tRXEA4liyzdFkjqG1HE8/RPb4A==",
-      "path": "microsoft.net.illink.tasks/9.0.0",
-      "hashPath": "microsoft.net.illink.tasks.9.0.0.nupkg.sha512"
+      "sha512": "sha512-BKFAkdhUUJivAoKuSWcT23WH9E+AWQMJootzt9X+lnesOD2a2yNIe1ZQFtxB8H3ayskLBD5gYyIbj5GIfw7rZg==",
+      "path": "microsoft.net.illink.tasks/9.0.1",
+      "hashPath": "microsoft.net.illink.tasks.9.0.1.nupkg.sha512"
     }
   }
 }

@@ -9,7 +9,7 @@
     <PublishSingleFile>true</PublishSingleFile>
     <SelfContained>true</SelfContained>
     <RuntimeIdentifier>win-x64</RuntimeIdentifier>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <ApplicationIcon>Resources\icon_large.ico</ApplicationIcon>
     <EnableDefaultEmbeddedResourceItems>false</EnableDefaultEmbeddedResourceItems>
   </PropertyGroup>
@@ -36,6 +36,11 @@
     <Resource Include="Resources\icon_large.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\icon_large.ico" />
+    <EmbeddedResource Include="Resources\icon_large.png" />
   </ItemGroup>
 
 </Project>

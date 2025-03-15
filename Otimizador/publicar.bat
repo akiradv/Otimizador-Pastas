@@ -1,6 +1,6 @@
 @echo off
 echo Publicando o aplicativo...
-dotnet publish -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -p:DebugType=None -p:DebugSymbols=false
+dotnet publish -c Release -r win-x64 --self-contained false -p:PublishSingleFile=true -p:IncludeNativeLibrariesForSelfExtract=true -p:DebugType=None -p:DebugSymbols=false
 
 echo Assinando o executavel...
 cd "bin\Release\net9.0-windows\win-x64\publish"
